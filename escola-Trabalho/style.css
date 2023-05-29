@@ -1,0 +1,105 @@
+/* Estilos CSS */
+* {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.content {
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+header h1 {
+    margin-left: 200px;
+    align-items: center;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 120px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+
+}
+
+header nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+header nav ul li:hover {
+    background-color: #ddd;
+    border: #333 1px solid;
+}
+section {
+    padding: 20px;
+    align-items: center;
+}
+
+section p {
+    width: 700px;
+}
+
+.introducao {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+
+h2 {
+    font-size: 40px;
+    height: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 96%;
+}
+.text-container {
+    flex: 1;
+  }
+  
+  .image-container {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .image-container img {
+    width: 300px; /* Ajuste o tamanho das imagens conforme necessário */
+    margin-left: 10px;
+  }
+
+  .componets {
+    border: #333 solid 1px;
+  }
