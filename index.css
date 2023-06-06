@@ -1,0 +1,211 @@
+/* Estilos CSS */
+* {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: grid;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.content {
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+
+/******************CABEÇALHO*****************/
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex; /* Adicione esta linha */
+    align-items: center;
+    justify-content: space-between; /* Adicione esta linha */
+}
+
+header h1 {
+    align-items: center;
+    font-size: 30px;
+}
+
+.n-letter {
+    font-size: 23px;
+    color:rgb(189, 33, 33)
+}
+
+.m-letter{
+    font-size: 23px;
+    color: rgb(62, 62, 190);
+}
+header h3 {
+    font-size: 23px;
+    margin-left: 50px;
+}
+/*Navegaçao*/
+
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: 30px;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+
+}
+
+header nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+header nav ul li:hover {
+    background-color: #ddd;
+    border: #333 1px solid;
+}
+
+.sobre, .cursos, .infraestrutura, .equipeEducacional {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-decoration-break: slice;
+    color: black;
+    font-size: 15px;
+    background-color: #ADD8E6;
+}
+
+.cursos {
+    background-color: #e6e78e
+}
+
+.infraestrutura{
+    background-color: #e7b28e
+}
+
+.equipeEducacional{
+    background-color: #ade6b5; 
+}
+
+/********************CONTEUDO*******************/
+section {
+    padding: 20px;
+    align-items: center;
+}
+
+section p {
+    width: 700px;
+}
+
+.introducao {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+
+h2 {
+    font-size: 40px;
+    height: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 96%;
+}
+.text-container {
+    flex: 1;
+  }
+  
+  .image-container {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .image-container img {
+    width: 300px; /* Ajuste o tamanho das imagens conforme necessário */
+    margin-left: 10px;
+  }
+
+  .componets {
+    border: #333 solid 1px;
+    border-radius: 10px;
+  }
+
+  /* Estilos para dispositivos com largura de tela até 600px */
+@media (max-width: 600px) {
+    header h1 {
+      margin-left: 0;
+      font-size: 24px;
+    }
+    
+    nav ul {
+      margin-left: 0;
+    }
+    
+    section p {
+      width: auto;
+    }
+    
+    .introducao {
+      margin-left: 0;
+      font-size: 18px;
+    }
+    
+    h2 {
+      font-size: 32px;
+    }
+    
+    .image-container img {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  /* Estilos para dispositivos com largura de tela até 900px */
+  @media (max-width: 900px) {
+    header h1 {
+      font-size: 26px;
+    }
+    
+    .introducao {
+      font-size: 16px;
+    }
+    
+    h2 {
+      font-size: 36px;
+    }
+  }
+  
+  /* Estilos para dispositivos com largura de tela acima de 1200px */
+  @media (min-width: 1200px) {
+    header h1 {
+      font-size: 32px;
+    }
+    
+    .introducao {
+      font-size: 22px;
+    }
+    
+    h2 {
+      font-size: 44px;
+    }
+  }
+  
