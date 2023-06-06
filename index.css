@@ -100,6 +100,22 @@ header nav ul li:hover {
 .equipeEducacional{
     background-color: #ade6b5; 
 }
+html {
+
+  scroll-behavior: smooth; /* Adiciona suavização de rolagem em todo o documento */
+
+}
+
+/* Estiliza a classe ativa para destacar o link atualmente ativo no menu de navegação */
+
+nav a.active {
+
+  font-weight: bold;
+
+  color: #ff0000; /* Adapte a cor conforme desejado */
+
+}
+
 
 /********************CONTEUDO*******************/
 section {
