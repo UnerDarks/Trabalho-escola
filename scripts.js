@@ -29,3 +29,26 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+////////////////////////////////
+
+document.addEventListener("DOMContentLoaded", function() {
+  var images = ["banner.jpeg", "nova-imagem.jpg"]; // Adicione aqui os nomes das imagens que deseja exibir
+  var currentImage = 0;
+  var imgElement = document.getElementById("banner-img");
+  var btnElement = document.querySelector(".btn-img");
+
+  function changeImage() {
+    btnElement.classList.add("hidden"); // Oculta o botão ao trocar de imagem
+
+    currentImage = (currentImage + 1) % images.length;
+    imgElement.src = images[currentImage];
+
+    setTimeout(function() {
+      btnElement.classList.remove("hidden"); // Exibe o botão novamente após a troca de imagem
+    }, 500); // Tempo em milissegundos antes do botão reaparecer
+  }
+
+  setInterval(changeImage, 3000); // Troca de imagem a cada 3 segundos (3000 milissegundos)
+});
+
