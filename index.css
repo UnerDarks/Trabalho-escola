@@ -107,6 +107,27 @@ header nav ul li:hover {
   background-color: #ade6b5;
 }
 
+#sobre {
+  margin-left: 200px;
+  margin-top: 120px;
+}
+
+#sobre h2{
+  font-size: 30px;
+  color: #f0f335;
+  
+}
+
+#contato {
+  font-size:35px;
+  background-color: #DDD;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border-top:1px solid #333;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
 html {
 
   scroll-behavior: smooth;
@@ -219,6 +240,50 @@ footer {
   flex: 1;
   text-align: center;
 }
+#opcao {
+  margin-right: 100px;
+  margin-top: 60px;
+
+  height: 350px;
+  width: 27%;
+  float: right;
+ 
+}
+
+.btn-opcao {
+  background-color: rgb(225, 233, 236);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+  float: right;
+  width: 150px;
+  height: 133px;
+  border-radius: 10px;
+  margin-right: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.btn-opcao:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.clear {
+  clear: both;
+}
+
+.btn-opcao img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 /* Estilos para dispositivos com largura de tela até 600px */
 @media (max-width: 600px) {
