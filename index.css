@@ -109,13 +109,23 @@ header nav ul li:hover {
 
 #sobre {
   margin-left: 200px;
-  margin-top: 120px;
+  margin-top: 100px;
+  margin-right: 130px;
+  background-color: #DDD;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  height: 276px;
 }
 
 #sobre h2{
   font-size: 30px;
-  color: #f0f335;
-  
+  color: rgb(62, 62, 190);
+}
+
+#sobre p {
+  margin-left: 100px;
+  margin-top: 60px;
+  font-size: 24px;
 }
 
 #contato {
@@ -135,18 +145,6 @@ html {
   /* Adiciona suavização de rolagem em todo o documento */
 
 }
-
-/* Estiliza a classe ativa para destacar o link atualmente ativo no menu de navegação */
-
-nav a.active {
-
-  font-weight: bold;
-
-  color: #ff0000;
-  /* Adapte a cor conforme desejado */
-
-}
-
 
 /********************CONTEUDO*******************/
 section {
